@@ -7,6 +7,7 @@
 6. python manage.py makemigrations
 7. python manage.py migrate
 8. python manage.py runserver
+(Steps 6 and 7 can be skipped)
 
 #demo api responses
 http://127.0.0.1:8000/api/upload/      (post method)
@@ -83,4 +84,5 @@ this is the response
         "created_at": "2025-11-04T10:28:30.417873Z"
     }
 ]
+
 
