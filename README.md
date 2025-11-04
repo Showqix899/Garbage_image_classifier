@@ -2,10 +2,11 @@
 1. First, create a Python virtual environment: python -m venv venv (Windows) or python3 -m venv venv (Linux) 
 2. Activate the virtual environment: venv\Script\activate (Windows) or source venv/bin/activate
 3. git clone https://github.com/Showqix899/Garbage_image_classifier.git
-4. pip install -r requirements.txt (Windows and Linux)
-5. python manage.py makemigrations
-6. python manage.py migrate
-7. python manage.py runserver
+4. cd Garbage_image_classifier
+5. pip install -r requirements.txt (Windows and Linux)
+6. python manage.py makemigrations
+7. python manage.py migrate
+8. python manage.py runserver
 
 #demo api responses
 http://127.0.0.1:8000/api/upload/      (post method)
@@ -82,3 +83,4 @@ this is the response
         "created_at": "2025-11-04T10:28:30.417873Z"
     }
 ]
+
